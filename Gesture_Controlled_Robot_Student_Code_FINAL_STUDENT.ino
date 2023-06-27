@@ -22,8 +22,8 @@ struct MyData {
 MyData data;
 
 //Setting up the maximum and minimum values for X and Y:
-int yMin = 150; //For forwards
-int yMax = 190; //For backwards
+int yMin = ;//For forwards
+int yMax = ; //For backwards
 //
 //int xMin = ; //For right
 //int xMax = ; //For left
@@ -58,13 +58,13 @@ void loop() {
   data.Y = map(ay, -17000, 17000, 0, 255);  // Y axis data
 
   //Printing the data in the X and Y to see what the ranges should be:
-//  Serial.print("Y value: ");
-//  Serial.println(data.Y);
-//  delay(100);
-  
-  Serial.print("X value: ");
-  Serial.println(data.X);
+  Serial.print("Y value: ");
+  Serial.println(data.Y);
   delay(100);
+  
+  //Serial.print("X value: ");
+  //Serial.println(data.X);
+  //delay(100);
 
   //If the Y value is less than yMin, move the motors forward:
 //  if(data.Y < yMin) {
@@ -72,11 +72,11 @@ void loop() {
 //    Serial.println("Forward");
 //
 //    //Add either HIGH or LOW, depending on which direction you want the motors to rotate:
-//    digitalWrite(motor1Out1, LOW);
-//    digitalWrite(motor1Out2, HIGH);
+//    digitalWrite(motor1Out1, );
+//    digitalWrite(motor1Out2, );
 //
-//    digitalWrite(motor2Out3, LOW);
-//    digitalWrite(motor2Out4, HIGH);
+//    digitalWrite(motor2Out3, );
+//    digitalWrite(motor2Out4, );
 //
 //}
 
