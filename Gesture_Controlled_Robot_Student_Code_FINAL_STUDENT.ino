@@ -22,8 +22,8 @@ struct MyData {
 MyData data;
 
 //Setting up the maximum and minimum values for X and Y:
-int yMin = ;//For forwards
-int yMax = ; //For backwards
+//int yMin = ;//For forwards
+//int yMax = ; //For backwards
 //
 //int xMin = ; //For right
 //int xMax = ; //For left
